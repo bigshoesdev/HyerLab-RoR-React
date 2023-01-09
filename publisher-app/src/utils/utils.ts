@@ -1,0 +1,7 @@
+export function getRandomInt(max: number) {
+  return Math.floor(Math.random() * max);
+}
+
+export function numberWithCommas(num: number) {
+  return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
